@@ -14,4 +14,9 @@ class Movie extends Model
         'watched_at',
         'rating',
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
