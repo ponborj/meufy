@@ -30,7 +30,7 @@
                                     <img :src="`https://image.tmdb.org/t/p/w45${movie.poster_path}`"
                                         class="w-10 rounded" alt="">
                                     <span
-                                        x-text="`${movie.title} (${movie.release_date?.slice(0, 4) || '??'}) — ${movie.original_title}`"></span>
+                                        x-text="`${movie.title} (${movie.release_date?.slice(0, 4) || '??'}) - ${movie.original_title}`"></span>
 
                                 </li>
                             </template>
